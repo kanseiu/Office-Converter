@@ -1,0 +1,12 @@
+server:
+  port: 9111
+
+spring:
+  application:
+    name: office-converter
+  profiles:
+    active: default
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 110MB
